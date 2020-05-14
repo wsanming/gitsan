@@ -9,15 +9,18 @@
 <div id="app">
     <!--			插值表达式-->
     {{message}}
+    <br>
+    <!--    三目运算符-->
+    {{true?"ok":"no"}}
 </div>
 </body>
 <script>
     //view model
     new Vue({
-		el:"#app",
-		data:{
-			message:"我来自银河系"
-		}
-	});
+        el: "#app",
+        data: {
+            message: "我来自银河系,你呢"
+        }
+    });
 </script>
 </html>
